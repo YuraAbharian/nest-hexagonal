@@ -1,7 +1,7 @@
 import { AccountId } from '../../entities/account.entity';
 import { MoneyEntity } from '../../entities/money.entity';
 
-export class SendMoneyCommandQuery {
+export class SendMoneyCommand {
   constructor(
     private readonly _sourceAccountId: AccountId,
     private readonly _targetAccountId: AccountId,
